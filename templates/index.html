@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/style_link.css' %}">
     <link rel="stylesheet" href="{% static 'css/style_index.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
             integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
@@ -55,311 +57,552 @@
 
 <!-- ################################################################################################ -->
 <div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
-    <div id="pageintro" class="hoc clear">
-        <!-- ################################################################################################ -->
-        <article>
-            <p>Amet nunc et accumsan blandit</p>
-            <h3 class="heading">Metus purus pharetra sit</h3>
-            <p>Tempor praesent eu orci sodales sagittis neque eget consectetur</p>
-            <footer><a class="btn" href="{% static 'index.html' %}">Fringilla est pharetra</a></footer>
-        </article>
-        <!-- ################################################################################################ -->
-    </div>
+    {#    <div id="pageintro" class="hoc clear">#}
+    {#        <!-- ################################################################################################ -->#}
+    {#        <article>#}
+    {#            <p>Amet nunc et accumsan blandit</p>#}
+    {#            <h3 class="heading">Metus purus pharetra sit</h3>#}
+    {#            <p>Tempor praesent eu orci sodales sagittis neque eget consectetur</p>#}
+    {#            <footer><a class="btn" href="{% static 'index.html' %}">Fringilla est pharetra</a></footer>#}
+    {#        </article>#}
+    {#        <!-- ################################################################################################ -->#}
+    {#    </div>#}
 
     <div class="container">
+        <h1>Telegram</h1>
         <div class="row">
-            <div class="col-md-5">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseOne"
-                                   aria-expanded="true" aria-controls="collapseOne">
-                                    <span>1</span>
-                                    Section 1
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
-                             aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem,
-                                    dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu
-                                    tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
-                                    tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
+            <div class="col-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 w-100">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h3>Kvartira</h3>
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                               href="#collapseOne"
+                                               aria-expanded="true" aria-controls="collapseOne">
+                                                <span>1</span>
+                                                Section 1
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                         aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <span>2</span>
+                                                Section 2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseThree" aria-expanded="false"
+                                               aria-controls="collapseThree">
+                                                <span>3</span>
+                                                Section 3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingThree">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse"
-                                   data-parent="#accordion"
-                                   href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <span>2</span>
-                                    Section 2
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                             aria-labelledby="headingTwo">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem,
-                                    dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu
-                                    tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
-                                    tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
+                        <div class="col-md-12 w-100">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h3>Kvartira</h3>
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                               href="#collapseOne"
+                                               aria-expanded="true" aria-controls="collapseOne">
+                                                <span>1</span>
+                                                Section 1
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                         aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <span>2</span>
+                                                Section 2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseThree" aria-expanded="false"
+                                               aria-controls="collapseThree">
+                                                <span>3</span>
+                                                Section 3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingThree">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse"
-                                   data-parent="#accordion"
-                                   href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <span>3</span>
-                                    Section 3
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                             aria-labelledby="headingThree">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem,
-                                    dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu
-                                    tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
-                                    tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
+
+                        <div class="col-md-12 w-100">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h3>Kvartira</h3>
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                               href="#collapseOne"
+                                               aria-expanded="true" aria-controls="collapseOne">
+                                                <span>1</span>
+                                                Section 1
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                         aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <span>2</span>
+                                                Section 2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseThree" aria-expanded="false"
+                                               aria-controls="collapseThree">
+                                                <span>3</span>
+                                                Section 3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingThree">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                                   aria-expanded="true" aria-controls="collapseOne">
-                                    <span>1</span>
-                                    Section 1
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
-                             aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem,
-                                    dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu
-                                    tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <span>2</span>
-                                    Section 2
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                             aria-labelledby="headingTwo">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem,
-                                    dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu
-                                    tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <span>3</span>
-                                    Section 3
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                             aria-labelledby="headingThree">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem,
-                                    dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu
-                                    tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                                   aria-expanded="true" aria-controls="collapseOne">
-                                    <span>1</span>
-                                    Section 1
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
-                             aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <span>2</span>
-                                    Section 2
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                             aria-labelledby="headingTwo">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <span>3</span>
-                                    Section 3
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                             aria-labelledby="headingThree">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
+            <div class="col-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h3>Nedvijimost</h3>
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                               href="#collapseOne"
+                                               aria-expanded="true" aria-controls="collapseOne">
+                                                <span>1</span>
+                                                Section 1
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                         aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <span>2</span>
+                                                Section 2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseThree" aria-expanded="false"
+                                               aria-controls="collapseThree">
+                                                <span>3</span>
+                                                Section 3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingThree">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                                   aria-expanded="true" aria-controls="collapseOne">
-                                    <span>1</span>
-                                    Section 1
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
-                             aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <span>2</span>
-                                    Section 2
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                             aria-labelledby="headingTwo">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                   href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <span>3</span>
-                                    Section 3
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                             aria-labelledby="headingThree">
-                            <div class="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum
-                                    id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt
-                                    ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor
-                                    aliquam vitae. Curabitur molestie eros. </p>
+            <div class="col-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h3>Uchastka</h3>
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                               href="#collapseOne"
+                                               aria-expanded="true" aria-controls="collapseOne">
+                                                <span>1</span>
+                                                Section 1
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                         aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <span>2</span>
+                                                Section 2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseThree" aria-expanded="false"
+                                               aria-controls="collapseThree">
+                                                <span>3</span>
+                                                Section 3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingThree">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h3>Business Sector</h3>
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                               href="#collapseOne"
+                                               aria-expanded="true" aria-controls="collapseOne">
+                                                <span>1</span>
+                                                Section 1
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                         aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <span>2</span>
+                                                Section 2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse"
+                                               data-parent="#accordion"
+                                               href="#collapseThree" aria-expanded="false"
+                                               aria-controls="collapseThree">
+                                                <span>3</span>
+                                                Section 3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                         aria-labelledby="headingThree">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl
+                                                lorem,
+                                                dictum
+                                                id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas
+                                                eu
+                                                tincidunt
+                                                ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere
+                                                tortor
+                                                aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-
 
     <div class="social-icons share-icons share-column relative">
         <ul class="faico clear">
